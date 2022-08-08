@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* header */
+/* header */
+/* header */
+
+header {
+  padding: 3rem 4rem;
+  font-family: "Cairo", sans-serif;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.name {
+  transition: display 100ms;
+}
+
+.desktop {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+.name {
+  flex: 1;
+  padding-right: 0.5rem;
+}
+
+li {
+  list-style: none;
+  padding-right: 2.2rem;
+  font-weight: 700;
+}
+
+.last {
+  color: rgb(204, 139, 0);
+}
