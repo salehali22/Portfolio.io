@@ -16,6 +16,12 @@
       href="https://fonts.googleapis.com/css2?family=Bitter&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/resources/styles/contactstyles.css" />
     <title>Contact me!</title>
   </head>
@@ -27,11 +33,76 @@
         >
 
         <ul class="desktop">
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#about-section">About me</a></li>
+          <li><a href="#">About me</a></li>
         </ul>
       </nav>
     </header>
+
+    <!-- Contact -->
+
+    <div class="contact">
+      <div class="contact-text">
+        <h2>Contact me</h2>
+        <p>
+          Need to get in touch with me? Either fill out the form with your
+          inquiry or find my socials to contact below.
+        </p>
+        <div class="other">
+          <div class="other-h3">
+        <h3>other ways to reach me</h3>
+      </div>
+
+      <div class="other-icon">
+        <a href="#"><img src="/resources/images/folder.png" alt=""></a>
+      </div>
+</div>
+      <div class="other-img">
+        <a href="https://www.instagram.com/saleh_.ali22/" target="_blank"><img src="/resources/images/instagram.png" alt=""></a>
+
+        <a href="https://www.linkedin.com/in/saleh-al-homeidy-34a025243/" target="_blank"><img src="/resources/images/linkedin.png" alt=""></a>
+
+        <a href="https://github.com/salehali22" target="_blank"><img src="/resources/images/github.png" alt=""></a>
+
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <form action="#" method="get">
+          <div class="user-input">
+            <div class="user firstname">
+              <label for="first">First Name*</label>
+              <br />
+              <input type="text" name="email" id="first" required />
+            </div>
+            <div class="user lastname">
+              <label for="last">Last Name</label>
+              <br />
+              <input type="text" name="last" id="last" />
+            </div>
+          </div>
+          <div class="email">
+            <label for="email">Email*</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="....@gmail.com"
+            />
+          </div>
+          <div class="txt-area">
+            <label for="hlp">How can I help you*</label>
+            <br />
+            <textarea name="hlp" id="hlp" cols="50" rows="7" required></textarea>
+          
+          <div class="submit">
+            <input type="submit" value="submit" class="btn-submit" />
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

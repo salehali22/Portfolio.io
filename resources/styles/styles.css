@@ -89,17 +89,21 @@ article {
   height: 40rem;
 }
 
+.text p {
+  font-size: 1.4rem;
+}
+
 .text {
   position: relative;
   color: white;
   font-family: "Cairo", sans-serif;
   padding: 10rem 0 0 9rem;
   font-weight: lighter;
-  transition: padding 200ms;
+  transition: all 250ms;
 }
 
 .text h1 {
-  font-size: 2.6rem;
+  font-size: 3rem;
   /* background-color: #ad9c00; */
   background-image: linear-gradient(#afafaf, #ad9c00);
   background-size: 100%;
@@ -113,8 +117,15 @@ article {
   padding: 0.6rem;
   border: 1px solid rgb(173, 156, 0, 0.4);
   border-radius: 0.4rem;
-  background-clip: padding-box;
+  /* background-clip: padding-box; */
   font-weight: 650;
+  transition: all 100ms;
+}
+
+.text a:hover {
+  font-size: 1.2rem;
+  color: rgb(173, 156, 0, 0.4);
+  border-color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 480px) {
@@ -273,5 +284,15 @@ article {
 @media only screen and (min-width: 1024px) {
   .project-des h3 {
     font-size: 2rem;
+  }
+  header,
+  article,
+  .about-section,
+  .skills,
+  .projects {
+    padding: 6rem 12rem;
+  }
+  .text {
+    padding: 7rem 0 0 9rem;
   }
 }
