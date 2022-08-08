@@ -179,5 +179,18 @@ article {
 /* skills */
 
 .skills {
-  background-image: linear-gradient(#636060, #000);
+  display: flex;
+  padding: 3rem 4rem;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
+
+.skill {
+  border: 1px solid black;
+}
+
+.skill img {
+  height: 5rem;
+  /* width: 100%; */
+  /* background-color: #ad9c00; */
 }
