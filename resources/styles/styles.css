@@ -1,0 +1,183 @@
+/* font-family: 'Bitter', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Header */
+.all {
+  background-image: url("/resources/images/samuel-scalzo-xyuYk9oLA8I-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+header {
+  padding: 3rem 4rem;
+  font-family: "Cairo", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.name {
+  transition: display 100ms;
+}
+
+.desktop {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+.name {
+  flex: 1;
+  padding-right: 0.5rem;
+}
+
+li {
+  list-style: none;
+  padding-right: 2.2rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: block;
+  }
+  .name {
+    display: none;
+  }
+  li {
+    margin: 0.3rem;
+    padding: 0;
+  }
+  .desktop {
+    justify-content: space-between;
+  }
+  header {
+    padding: 3rem 0.5rem;
+  }
+}
+
+/* article */
+/* article */
+/* article */
+
+article {
+  height: 40rem;
+}
+
+.text {
+  position: relative;
+  color: white;
+  font-family: "Cairo", sans-serif;
+  padding: 10rem 0 0 9rem;
+  font-weight: lighter;
+  transition: padding 200ms;
+}
+
+.text h1 {
+  font-size: 2.6rem;
+  /* background-color: #ad9c00; */
+  background-image: linear-gradient(#afafaf, #ad9c00);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.text a {
+  padding: 0.6rem;
+  border: 1px solid rgb(173, 156, 0, 0.4);
+  border-radius: 0.4rem;
+  background-clip: padding-box;
+  font-weight: 650;
+}
+
+@media only screen and (max-width: 480px) {
+  .text {
+    padding: 10rem 0 0 3.4rem;
+  }
+}
+
+/* About me */
+/* About me */
+/* About me */
+
+.about-section {
+  display: flex;
+  padding: 6rem 4rem;
+  font-family: "Bitter", serif;
+}
+
+.pic img {
+  height: 10rem;
+  clip-path: circle();
+  margin-bottom: 1rem;
+  transition: height 200ms;
+}
+
+.about-text {
+  line-height: 1.4;
+  margin-left: 3rem;
+  transition: font-size 200ms;
+}
+
+@media only screen and (max-width: 530px) {
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 3rem 0.5rem;
+  }
+  .pic {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+  }
+  .about-text {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .about-text {
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+  }
+  .pic img {
+    height: 20rem;
+  }
+}
+
+/* skills */
+/* skills */
+/* skills */
+
+.skills {
+  background-image: linear-gradient(#636060, #000);
+}
